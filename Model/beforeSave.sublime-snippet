@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+public function beforeSave(Event \$event, ${1:\Entity} \$entity, \ArrayObject \$options){
+	$2
+	return true;
+}
+
+]]></content>
+	<tabTrigger>beforeSave</tabTrigger>
+	<scope>source.php</scope>
+	<description>CakePHP: beforeSave()</description>
+</snippet>

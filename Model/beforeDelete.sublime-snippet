@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+public function beforeDelete(Event \$event, ${1:Entity} \$entity, \ArrayObject \$options){
+	$2
+}
+
+]]></content>
+	<tabTrigger>beforeDelete</tabTrigger>
+	<scope>source.php</scope>
+	<description>CakePHP: beforeDelete()</description>
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+public function isAuthorized(\$user)
+{
+    \$this->Authorizer->action(['$1'], function(\$auth) {
+        \$auth->allowRole(['$2']);
+    });
+
+    return \$this->Authorizer->authorize() || parent::isAuthorized(\$user);
+}
+	]]></content>
+	<tabTrigger>isAuthorized</tabTrigger>
+	<scope>source.php</scope>
+	<description>CakePHP: isAuthorized($user)</description>
+</snippet>

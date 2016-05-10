@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+public function find${1:FinderName}(Query \$query, array \$options)
+{
+    return $2;
+}
+	]]></content>
+	<tabTrigger>finder</tabTrigger>
+	<scope>source.php</scope>
+	<description>CakePHP: customFinder</description>
+</snippet>

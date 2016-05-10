@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+public function beforeMarshal(Event \$event, \ArrayObject \$data, \ArrayObject \$options)
+{
+	$1
+	return true;
+}
+
+]]></content>
+	<tabTrigger>beforeMarshal</tabTrigger>
+	<scope>source.php</scope>
+	<description>CakePHP: beforeMarshal()</description>
+</snippet>

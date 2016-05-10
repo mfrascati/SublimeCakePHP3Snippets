@@ -1,0 +1,14 @@
+<snippet>
+	<scope>source.php</scope>
+	<content><![CDATA[
+->formatResults(function (\$results){
+    return \$results->map(function (\$row) {
+    	${1}
+    	return \$row;
+    });
+})
+]]></content>
+<tabTrigger>formatResults</tabTrigger>
+<scope>source.php</scope>
+<description>CakePHP: formatResults()</description>
+</snippet>
