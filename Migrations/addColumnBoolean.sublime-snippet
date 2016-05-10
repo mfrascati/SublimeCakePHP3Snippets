@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+->addColumn('${1:field_name}', 'boolean', ['default' => null, 'null' => false, ])
+	]]></content>
+	<tabTrigger>addColumnBoolean</tabTrigger>
+	<scope>source.php</scope>
+	<description>CakePHP Migrations: addColumn Boolean</description>
+</snippet>

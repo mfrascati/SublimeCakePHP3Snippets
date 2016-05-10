@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+$this->execute('$1');
+	]]></content>
+	<tabTrigger>rawQueryExecute</tabTrigger>
+	<scope>source.php</scope>
+	<description>CakePHP Migrations: Raw Query Execute</description>
+</snippet>

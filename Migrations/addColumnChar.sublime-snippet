@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+->addColumn('${1:field_name}', 'char', ['limit' => ${2:false}, 'default' => null, 'signed' => false, 'null' => true, ])
+	]]></content>
+	<tabTrigger>addColumnChar</tabTrigger>
+	<scope>source.php</scope>
+	<description>CakePHP Migrations: addColumn Char</description>
+</snippet>

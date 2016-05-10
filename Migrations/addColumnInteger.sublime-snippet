@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+->addColumn('${1:field_name}', 'integer', ['limit' => null, 'default' => null, 'signed' => false, 'null' => true, ])
+	]]></content>
+	<tabTrigger>addColumnInteger</tabTrigger>
+	<scope>source.php</scope>
+	<description>CakePHP Migrations: addColumn Integer</description>
+</snippet>

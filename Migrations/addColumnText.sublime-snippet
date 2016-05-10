@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+->addColumn('${1:field_name}', 'text', ['default' => null, 'null' => true, ])
+	]]></content>
+	<tabTrigger>addColumnText</tabTrigger>
+	<scope>source.php</scope>
+	<description>CakePHP Migrations: addColumn Text</description>
+</snippet>

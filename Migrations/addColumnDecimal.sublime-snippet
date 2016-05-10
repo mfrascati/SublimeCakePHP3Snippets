@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+->addColumn('${1:field_name}', 'decimal', ['precision' => ${2:9}, 'scale' => ${3:2}, 'default' => 0, 'null' => true, ])
+	]]></content>
+	<tabTrigger>addColumnDecimal</tabTrigger>
+	<scope>source.php</scope>
+	<description>CakePHP Migrations: addColumn Decimal</description>
+</snippet>
