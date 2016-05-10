@@ -10,7 +10,7 @@ Installing
 
 * Press "ctnl+shift+p"
 * Enter "Package Control: Add Repository"
-* Enter "https://github.com/mfrascati/SublimeCakePHP3"
+* Enter "https://github.com/mfrascati/SublimeCakePHP3Snippets"
 * Press "ctnl+shift+p"
 * Enter "Package Control: Install Package"
 * Enter "SublimeCakePHP3"
