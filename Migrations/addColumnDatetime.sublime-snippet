@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-->addColumn('${1:field_name}', 'datetime', ['default' => null, 'limit' => null, 'null' => false, ])
+->addColumn('${1:field_name}', 'datetime', ['default' => null, 'limit' => null, 'null' => true, ])
 	]]></content>
 	<tabTrigger>addColumnDatetime</tabTrigger>
 	<scope>source.php</scope>

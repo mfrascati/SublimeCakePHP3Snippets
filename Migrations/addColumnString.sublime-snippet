@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-->addColumn('${1:field_name}', 'string', ['limit' => ${2:false}, 'default' => null, 'signed' => false, 'null' => true, ])
+->addColumn('${1:field_name}', 'string', ['limit' => ${2:false}, 'default' => null, 'null' => true, ])
 	]]></content>
 	<tabTrigger>addColumnString</tabTrigger>
 	<scope>source.php</scope>
